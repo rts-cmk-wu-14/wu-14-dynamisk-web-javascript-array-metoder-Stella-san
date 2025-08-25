@@ -26,6 +26,8 @@ document.addEventListener("DOMContentLoaded", function () {
     // Check om der i dogsArray er en hund som hedder "Baxter".
     // Udskriv "true" eller "false" i konsollen afhængig af svaret.
     // console.log("Opgave 3b", ...)
+    console.log("Opgave 3b:", dogsArray.includes("Baxter"));
+    
     
     //     Opgave 4a
     // Check om der i catsArray er en kat som hedder "Bagheera".
