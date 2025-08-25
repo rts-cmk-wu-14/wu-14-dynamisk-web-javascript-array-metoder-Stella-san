@@ -13,11 +13,14 @@ document.addEventListener("DOMContentLoaded", function () {
     // Tilføj katten "Sniffles" til catsArray.
     // Udskriv arrayet i konsollen.
     // console.log("Opgave 2", ...)
+    catsArray.push("Sniffles")
+    console.log("Opgave 2:", catsArray);
 
     // Opgave 3a
     // Check om der i dogsArray er en hund som hedder "Trixie".
     // Udskriv "true" eller "false" i konsollen afhængig af svaret.
     // console.log("Opgave 3a", ...)
+    console.log("Opgave 3a:", dogsArray.includes("Trixie"));
 
     // Opgave 3b
     // Check om der i dogsArray er en hund som hedder "Baxter".
