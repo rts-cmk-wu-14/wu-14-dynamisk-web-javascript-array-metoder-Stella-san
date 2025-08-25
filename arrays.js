@@ -27,17 +27,22 @@ document.addEventListener("DOMContentLoaded", function () {
     // Udskriv "true" eller "false" i konsollen afhængig af svaret.
     // console.log("Opgave 3b", ...)
     console.log("Opgave 3b:", dogsArray.includes("Baxter"));
-    
-    
-    //     Opgave 4a
+        
+    //Opgave 4a
     // Check om der i catsArray er en kat som hedder "Bagheera".
     // Udskriv katten i konsollen hvis den findes og ellers "undefined".
     // console.log("Opgave 4a", ...)
+    let a4 = catsArray.find((element) => {
+        return element == "Bagheera"
+    })
+    console.log("Opgave 4a:", a4);
 
     // Opgave 4b
     // Check om der i catsArray er en kat som hedder "Salem".
     // Udskriv katten i konsollen hvis den findes og ellers "undefined".
     // console.log("Opgave 4b", ...)
+    let b4 = catsArray.find((element) =>  element == "Salem" )
+    console.log("Opgave 4b:", b4);
 
     //     Opgave 5
     // Med udgangspunkt i numbersArray, skal du oprette et nyt array, som indeholder alle tallene i arrayet ganget med 3.
