@@ -21,6 +21,8 @@ document.addEventListener("DOMContentLoaded", function () {
     // Udskriv "true" eller "false" i konsollen afhængig af svaret.
     // console.log("Opgave 3a", ...)
     
+    console.log("Opgave 3a:", );
+
     // Opgave 3b
     // Check om der i dogsArray er en hund som hedder "Baxter".
     // Udskriv "true" eller "false" i konsollen afhængig af svaret.
