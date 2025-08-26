@@ -59,14 +59,18 @@ document.addEventListener("DOMContentLoaded", function () {
     let dog = dogsArray.map((dog) => dog).join("")
     console.log("Opgave 6:", dog);
 
-    //     Opgave 7a
+    //Opgave 7a
     // Find ud af hvilket index "Mango" har i fruitsArray.
     // Udskriv indexet i konsollen.
+    let fruitM = fruitsArray.indexOf("Mango")
+    console.log("opgave 7a:", fruitM);
 
     // Opgave 7b
     // Find ud af hvilket index "Blåbær" har i fruitsArray.
     // Udskriv indexet i konsollen.
-
+    let fruitB = fruitsArray.indexOf("Blåbær")
+    console.log("opgave 7b:", fruitB);
+    
     // Opgave 8
     // Lad os forestille os, at dogsArray er en liste af tilmeldte hunde til en udstilling.
     // Den familie der har hunden "Polly" er desværre blevet forhindret i at deltage i udstillingen.
