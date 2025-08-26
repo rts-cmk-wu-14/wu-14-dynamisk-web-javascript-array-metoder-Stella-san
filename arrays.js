@@ -51,11 +51,13 @@ document.addEventListener("DOMContentLoaded", function () {
     let numArray = numbersArray.map((num) => num * 3)
     console.log("Opgave 5:", numArray);
 
-    //     Opgave 6
+    //Opgave 6
     // Udskriv alle hundene i dogsArray i én lang streng.
     // (Sådan her: BarneyMollyBaxter...)
     // Udskriv strengen konsollen:
     // console.log("Opgave 6", ...)
+    let dog = dogsArray.map((dog) => dog).join("")
+    console.log("Opgave 6:", dog);
 
     //     Opgave 7a
     // Find ud af hvilket index "Mango" har i fruitsArray.
