@@ -44,10 +44,12 @@ document.addEventListener("DOMContentLoaded", function () {
     let b4 = catsArray.find((element) =>  element == "Salem" )
     console.log("Opgave 4b:", b4);
 
-    //     Opgave 5
+    //Opgave 5
     // Med udgangspunkt i numbersArray, skal du oprette et nyt array, som indeholder alle tallene i arrayet ganget med 3.
     // Udskriv det nye array i konsollen:
     // console.log("Opgave 5", ...)
+    let numArray = numbersArray.map((num) => num * 3)
+    console.log("Opgave 5:", numArray);
 
     //     Opgave 6
     // Udskriv alle hundene i dogsArray i én lang streng.
